@@ -23,7 +23,7 @@ function App() {
         <div className="city">
           <h2 className="city-title">
             <span>{weather.name}</span>
-            <sup style={{backgroundColor:'yellow'}}>{weather.sys.country}</sup>
+             <sup style={{color:'black',fontSize:'19px', backgroundColor:'#FFD700'}}>{weather.sys.country}</sup>
           </h2>
           <div className="city-temp">
             {Math.round(weather.main.temp)}
